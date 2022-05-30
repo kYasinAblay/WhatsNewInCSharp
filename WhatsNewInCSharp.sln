@@ -27,17 +27,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decontruction", "Decontruct
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WhatsNewInCsharp7.1", "WhatsNewInCsharp7.1", "{3838314D-BD08-4827-BB73-C3556B83394C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMain", "AsyncMain\AsyncMain.csproj", "{962E8991-D72A-46C8-8525-7E8EAB4A2EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncMain", "AsyncMain\AsyncMain.csproj", "{962E8991-D72A-46C8-8525-7E8EAB4A2EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultExpression", "DefaultExpression\DefaultExpression.csproj", "{FA791467-823B-4271-9183-DDADC5B04A87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultExpression", "DefaultExpression\DefaultExpression.csproj", "{FA791467-823B-4271-9183-DDADC5B04A87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefAssemblies", "RefAssemblies\RefAssemblies.csproj", "{1775F641-A6CD-4D46-9D7B-62A1E88532F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefAssemblies", "RefAssemblies\RefAssemblies.csproj", "{1775F641-A6CD-4D46-9D7B-62A1E88532F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferTupleNames", "InferTupleNames\InferTupleNames.csproj", "{6EA3A9B1-82B3-4EC6-9E60-BE7E8481BB64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InferTupleNames", "InferTupleNames\InferTupleNames.csproj", "{6EA3A9B1-82B3-4EC6-9E60-BE7E8481BB64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern_MatchingWithGenerics", "Pattern_MatchingWithGenerics\Pattern_MatchingWithGenerics.csproj", "{2C760554-9A50-4315-B3BE-EB48476A4537}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pattern_MatchingWithGenerics", "Pattern_MatchingWithGenerics\Pattern_MatchingWithGenerics.csproj", "{2C760554-9A50-4315-B3BE-EB48476A4537}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WhatsNewInCsharp7.2", "WhatsNewInCsharp7.2", "{F0AD3542-8FD8-4582-AE33-72F0822DA1A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WhatsNewInCsharp8", "WhatsNewInCsharp8", "{F73FCAFB-7279-40D0-86EF-574CB2EB2453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatchingForCsharp8", "PatternMatchingForCsharp8\PatternMatchingForCsharp8.csproj", "{F2A43CA9-13EB-4A5C-AD37-1C76711C293D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,10 @@ Global
 		{2C760554-9A50-4315-B3BE-EB48476A4537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C760554-9A50-4315-B3BE-EB48476A4537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C760554-9A50-4315-B3BE-EB48476A4537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A43CA9-13EB-4A5C-AD37-1C76711C293D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A43CA9-13EB-4A5C-AD37-1C76711C293D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A43CA9-13EB-4A5C-AD37-1C76711C293D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A43CA9-13EB-4A5C-AD37-1C76711C293D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +133,7 @@ Global
 		{1775F641-A6CD-4D46-9D7B-62A1E88532F3} = {3838314D-BD08-4827-BB73-C3556B83394C}
 		{6EA3A9B1-82B3-4EC6-9E60-BE7E8481BB64} = {3838314D-BD08-4827-BB73-C3556B83394C}
 		{2C760554-9A50-4315-B3BE-EB48476A4537} = {3838314D-BD08-4827-BB73-C3556B83394C}
+		{F2A43CA9-13EB-4A5C-AD37-1C76711C293D} = {F73FCAFB-7279-40D0-86EF-574CB2EB2453}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C794564B-A921-4B6D-9095-AE30025DA1D0}
