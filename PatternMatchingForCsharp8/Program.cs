@@ -18,8 +18,7 @@ namespace PatternMatchingForCsharp8
     }
     public class PhoneNumber
     {
-        public int Number { get; set; }
-        public int Code { get; set; }
+        public int Code, Number;
     }
     internal class Program
     {
